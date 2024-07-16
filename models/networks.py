@@ -181,7 +181,7 @@ class OursSI(Depth):
         self.bb_model = MidasNet(activation='sigmoid').to(device)
         state_dict_ssi = torch.load(self.cfg.ssi_weights)
         print(f"Loading SSI model weights from: {self.cfg.ssi_weights}")
-        self.bb_model.load_state_dict(state_dict_ssi['model'])
+        self.bb_model.load_state_dict(state_dict_ssi)
         self.bb_model.eval()
 
         print("==== Network Details ====")
