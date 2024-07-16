@@ -1,4 +1,4 @@
-## Scale-Invariant Monocular Depth Estimation via SSI Depth [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/SIDepth/blob/dev/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](https://yaksoy.github.io/papers/SIG24-SI-Depth-Supp.pdf)
+## Scale-Invariant Monocular Depth Estimation via SSI Depth [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/SIDepth/blob/main/demo.ipynb) [![Arxiv](http://img.shields.io/badge/cs.CV-arXiv-B31B1B.svg)](https://yaksoy.github.io/papers/SIG24-SI-Depth-Supp.pdf)
 
 
 > S. Mahdi H. Miangoleh, Mahesh Reddy, Yağız Aksoy.
@@ -15,7 +15,7 @@ Proc. SIGGRAPH, 2024
 Existing methods for scale-invariant monocular depth estimation (SI MDE) often struggle due to the complexity of the task, and limited and non-diverse datasets, hindering generalizability in real-world scenarios. This is while shift-and-scale-invariant (SSI) depth estimation, simplifying the task and enabling training with abundant stereo datasets achieves high performance. We present a novel approach that leverages SSI inputs to enhance SI depth estimation, streamlining the network's role and facilitating in-the-wild generalization for SI depth estimation while only using a synthetic dataset for training. Emphasizing the generation of high-resolution details, we introduce a novel sparse ordinal loss that substantially improves detail generation in SSI MDE, addressing critical limitations in existing approaches. Through in-the-wild qualitative examples and zero-shot evaluation we substantiate the practical utility of our approach in computational photography applications, showcasing its ability to generate highly detailed SI depth maps and achieve generalization in diverse scenarios.
 
 
-Try our model easily on Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/SIDepth/blob/dev/demo.ipynb)
+Try our model easily on Colab : [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/compphoto/SIDepth/blob/main/demo.ipynb)
 
 
 
