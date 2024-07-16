@@ -1,0 +1,12 @@
+/weights/*.pth
+
+
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*/*/*/__pycache__/
+*/*/*/*/__pycache__/
+
+/results
+
+local_run.sh

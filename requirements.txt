@@ -1,0 +1,7 @@
+opencv-python
+torch
+torchvision
+timm
+tqdm
+yacs
+scikit-image
