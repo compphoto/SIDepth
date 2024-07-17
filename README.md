@@ -30,7 +30,7 @@ pip install -r requirements.txt
 conda activate ENVNAME
 ```
 
-2. Download our model weights from [here]() and place them inside "./weights/" folder.
+2. Download our model weights from [here](https://drive.google.com/file/d/1jbcgAkKNXxQO37iwjjWbEYCcVQVERwTc/view?usp=drive_link) and place them inside "./weights/" folder.
 
 3. Run the code.
 ```
