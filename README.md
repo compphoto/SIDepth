@@ -38,7 +38,7 @@ python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SI --colorize
 python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SSI --colorize
 ```
 
-** We implementation boosts our SSI depth using [BoostingMonocularDepth](https://github.com/intel-isl/MiDaS/tree/v2) by default. If you need the base estimations at the lower receptieve field resolution run the following:
+** Our implementation boosts our SSI depth using [BoostingMonocularDepth](https://github.com/intel-isl/MiDaS/tree/v2) by default. If you need the base estimations at the lower receptieve field resolution run the following:
 ```
 python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SSIBase --colorize
 ```
