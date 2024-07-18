@@ -38,7 +38,7 @@ python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SI --colorize
 python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SSI --colorize
 ```
 
-** Our implementation boosts our SSI depth using [BoostingMonocularDepth](https://github.com/intel-isl/MiDaS/tree/v2) by default. If you need the base estimations at the lower receptieve field resolution run the following:
+** Our implementation boosts our SSI depth using [BoostingMonocularDepth](https://github.com/compphoto/BoostingMonocularDepth) by default. If you need the base estimations at the lower receptieve field resolution run the following:
 ```
 python eval.py -i PATH-TO-INPUT -o PATH-TO-OUTPUT -m SSIBase --colorize
 ```
@@ -58,7 +58,7 @@ year={2024},
 
 ## Credits
 
-"./model/bmd/" is adapted from [BoostingMonocularDepth](https://github.com/intel-isl/MiDaS/tree/v2) for their Boosting framework implementation.  
+"./model/bmd/" is adapted from [BoostingMonocularDepth](https://github.com/compphoto/BoostingMonocularDepth) for their Boosting framework implementation.  
 
 "./model/bmd/pix2pix" folder was adapted from the [pytorch-CycleGAN-and-pix2pix](https://github.com/junyanz/pytorch-CycleGAN-and-pix2pix) repository. 
 
